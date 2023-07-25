@@ -1,16 +1,29 @@
 import "../CSS/Footer.css";
-import logo from "../Img/EMCLogo.png";
+import LogoFooter from "../Img/EMCLogo.png";
 
 const Footer = () => {
   return (
     <div className="Footer">
-      <a href="/" className="LogoLabel">
-        <img src={logo} alt="EMC SPARES" className="logo LogoFooter" />
-        EMC SPARES
-      </a>
-      <div className="Links">
-        
+
+      <div className="ConLogoFooter">
+        <img src={LogoFooter} alt="EMC SPARES" className="LogoFooter"/>
+        <a href="/" className="LogoLabel">
+          EMC SPARES
+        </a>
       </div>
+
+      <div className="ConLinks ">
+        <a
+          className="Link "
+          href="http://"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-whatsapp me-1"></i>
+          Whatsapp
+        </a>
+      </div>
+
     </div>
   );
 };
