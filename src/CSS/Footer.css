@@ -1,7 +1,15 @@
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
 .Footer {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: fit-content;
   background-color: #212529;
+
 }
 
 .ConLogoFooter {
