@@ -1,0 +1,28 @@
+h4 {
+  color:darkgoldenrod;
+}
+.special {
+  color: #7a7b75;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .Category, .special {
+    font-size: smaller;
+  }
+  .special{
+    font-size: small;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Category, .special {
+    font-size: 30px;
+  }
+  .special{
+    font-size: 20px;
+  }
+}

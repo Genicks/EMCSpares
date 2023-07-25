@@ -1,0 +1,18 @@
+.logo {
+  width: 70px;
+}
+
+.icons {
+  color: #00ffff;
+}
+
+.active {
+  padding-bottom: 1px;
+  border-bottom: solid 1px #843d0d;
+}
+
+@media screen and (max-width: 768px) {
+  .active {
+    border: none;
+  }
+}

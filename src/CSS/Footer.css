@@ -1,0 +1,19 @@
+.Footer {
+  width: 100%;
+  height: 100px;
+  background-color: #212529;
+}
+
+.LogoFooter {
+  width: 80px;
+}
+
+.LogoLabel {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.links {
+  
+}

@@ -1,0 +1,32 @@
+
+.ConConForProducts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.ConForProducts {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 80%;
+}  
+
+@media screen and (min-width: 500px) {
+  .ConForProducts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .ConForProducts {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .ConForProducts {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.Container {
+  display: flex;
+}
+
+.orderWordContainer {
+  display: inline;
+}
+
+.orderWord {
+  color: #b8860b;
+  z-index: 2;
+  display: block;
+}
+
+.Info {
+  z-index: 2;
+}
+
+.Cover {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 20px; */
+  padding: 120px 0;
+  align-items: center;
+  background-image: url(../Img/Cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Cover::before {
+  content: "";
+  z-index: 1;
+  opacity: 0.7;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(5, 0, 0);
+  background: linear-gradient(
+    38deg,
+    rgba(5, 0, 0, 1) 29%,
+    rgb(30, 0, 0) 78%,
+    rgb(0, 0, 1) 100%
+  );
+}
+
+@media screen and (max-width: 449px) {
+  .Container {
+    display: block;
+  }
+  .Cover {
+    padding: 100px 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .Cover {
+    padding: 200px 0;
+  }
+  .Heading, .orderWord {
+    font-size: 50px;
+  }
+  .SubHeading {
+    font-size: 30px;
+  }
+}

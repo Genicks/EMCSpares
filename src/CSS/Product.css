@@ -1,0 +1,33 @@
+.ConForProduct {
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+.ProductImg {
+  width: 90%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.ProductName {
+  margin: 0;
+  font-weight: bold;
+  height: fit-content;
+  background-color: #2e323b;
+  width: 90%;
+  text-align: center;
+  border-radius: 0 0 6px 6px;
+  padding: 10px;
+}
+
+
+.CenterItem {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+  .ProductName {
+    font-size: 17px;
+  }
+}
