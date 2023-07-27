@@ -9,7 +9,6 @@ body {
   width: 100%;
   height: fit-content;
   background-color: #212529;
-
 }
 
 .ConLogoFooter {
@@ -34,9 +33,53 @@ body {
   margin-left: 80px;
   padding: 10px 0;
   width: fit-content;
+  display: flex;
+  flex-direction: column;
 }
 
-.Link, .bi-whatsapp {
-  color: green;
+.Link {
+  color: rgb(255, 255, 255);
   text-decoration: none;
+  padding: 8px 0;
+  font-size: 15px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.Link1 {
+  color: gray;
+}
+
+.Link2 {
+  color: brown;
+}
+
+.Link3 {
+  color: green;
+}
+
+.Link4 {
+  color: dodgerblue;
+}
+
+@media screen and (min-width: 500px) {
+  .ConLinks {
+    width: 100%;
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .Link {
+    text-align: center;
+    border-right: 2px solid #5d6975;
+  }
+  .Link4 {
+    border: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .Link {
+    font-size: 17px;
+  }
 }
