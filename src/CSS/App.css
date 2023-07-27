@@ -1,3 +1,25 @@
 body{
   background-color: #3e4451;
 }
+
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 999;
+}
+
+#backToTopBtn {
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+@media screen and (min-width: 500px) {
+  #backToTopBtn {
+    position: absolute;
+    bottom: 76px;
+  }
+}

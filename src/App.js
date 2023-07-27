@@ -1,18 +1,46 @@
 import "./CSS/App.css";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import { BrowserRouter } from "react-router-dom";
+import PageNotFound from "./Pages/PageNotFound";
 
+function checkScrollPosition() {
+  const backToTopBtn = document.getElementById("backToTopBtn");
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition > 600) {
+    backToTopBtn.style.display = "block";
+    backToTopBtn.style.opacity = "1";
+    backToTopBtn.style.visibility = "visible";
+  } else {
+    backToTopBtn.style.opacity = "0";
+    backToTopBtn.style.visibility = "hidden";
+  }
+}
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
+
+document.addEventListener("scroll", checkScrollPosition);
 
 function App() {
   return (
-    <BrowserRouter basename="EMCSpares">
+    <Router basename="EMCSpares">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/About" element={<About />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
-    </BrowserRouter>
+      <div id="backToTopBtn" onClick={scrollToTop}>
+        <button className="btn btn-success">
+          Back to top <i className="bi bi-arrow-up-short"></i>
+        </button>
+      </div>
+    </Router>
   );
 }
 
