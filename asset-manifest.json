@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/EMCSpares/static/css/main.fd4beb05.css",
-    "main.js": "/EMCSpares/static/js/main.e98a062d.js",
+    "main.css": "/EMCSpares/static/css/main.c1debd5c.css",
+    "main.js": "/EMCSpares/static/js/main.a6d3eedb.js",
     "static/media/Cover.jpg": "/EMCSpares/static/media/Cover.2e555193b82df51eebe5.jpg",
     "static/media/EMCLogo_bg.png": "/EMCSpares/static/media/EMCLogo_bg.de656d0fac69a0c87464.png",
     "static/media/EMCLogo.png": "/EMCSpares/static/media/EMCLogo.bc87467baa37eef8403a.png",
     "index.html": "/EMCSpares/index.html",
-    "main.fd4beb05.css.map": "/EMCSpares/static/css/main.fd4beb05.css.map",
-    "main.e98a062d.js.map": "/EMCSpares/static/js/main.e98a062d.js.map"
+    "main.c1debd5c.css.map": "/EMCSpares/static/css/main.c1debd5c.css.map",
+    "main.a6d3eedb.js.map": "/EMCSpares/static/js/main.a6d3eedb.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd4beb05.css",
-    "static/js/main.e98a062d.js"
+    "static/css/main.c1debd5c.css",
+    "static/js/main.a6d3eedb.js"
   ]
 }
