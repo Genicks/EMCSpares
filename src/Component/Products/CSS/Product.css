@@ -6,7 +6,10 @@
 
 .ProductImg {
   width: 90%;
+  min-height: 170px;
+  max-height: 210px;
   border-radius: 10px 10px 0px 0px;
+  background-color: white;
 }
 
 .ProductName {

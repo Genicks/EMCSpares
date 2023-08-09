@@ -17,7 +17,10 @@
   color: #b8860b;
   z-index: 2;
   display: block;
+  cursor: pointer;
 }
+
+
 
 .Info {
   z-index: 2;

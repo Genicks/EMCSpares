@@ -11,7 +11,7 @@ const Cover = () => {
           </h1>
 
           <h1 className="d-flex justify-content-center">
-            <div className="orderWord">Order Now!</div>
+            <a href="https://api.whatsapp.com/send?phone=5926578699&text=I%20would%20like%20to%20make%20an%20order." className="orderWord">Order Now!</a>
           </h1>
 
         </div>

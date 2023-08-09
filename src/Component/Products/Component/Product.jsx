@@ -7,7 +7,7 @@ const NameNoSpace = Name.replace(/%20/g, "")
 
   return (
     <a
-      href={`https://api.whatsapp.com/send?phone=5926578699&text=I%20would%20like%20to%20order%20something%20from%20the%20category:%20${NameNoSpace}`}
+      href={`https:api.whatsapp.com/send?phone=5926578699&text=Category:%20${NameNoSpace}%0A%0APlease%20Enter%20The%20Following%20Information:%0AMake:%0AModel:%20`}
       target="blank"
       rel="noreferrer"
       className={`ConForProduct ${Id}`}
