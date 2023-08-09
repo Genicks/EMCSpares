@@ -1,5 +1,5 @@
-import "../CSS/Footer.css";
-import LogoFooter from "../Img/EMCLogo.png";
+import "./CSS/Footer.css";
+import LogoFooter from "../../Img/EMCLogo.png";
 
 const Footer = () => {
   return (

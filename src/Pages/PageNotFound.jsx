@@ -1,4 +1,4 @@
-import NavBar from "../Component/NavBar";
+import NavBar from "../Component/NavBar/NavBar";
 import "../CSS/PageNotFound.css";
 import Img from "../Img/no-results.png";
 

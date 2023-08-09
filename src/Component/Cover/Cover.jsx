@@ -1,4 +1,4 @@
-import "../CSS/Cover.css";
+import "./CSS/Cover.css";
 
 const Cover = () => {
   return (

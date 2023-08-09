@@ -1,6 +1,6 @@
-import Product from "./Product"
-import Img from "../Img/EMCLogo_bg.png"
-import "../CSS/Products.css"
+import Product from "./Component/Product"
+import Img from "./Products-Img/EMCLogo_bg.png"
+import "./CSS/Products.css"
 
 
 const Products = () => {
