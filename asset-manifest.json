@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EMCSpares/static/css/main.d63cec9a.css",
-    "main.js": "/EMCSpares/static/js/main.4e46c185.js",
+    "main.css": "/EMCSpares/static/css/main.4b8250f4.css",
+    "main.js": "/EMCSpares/static/js/main.6966c16a.js",
     "static/media/Battery.png": "/EMCSpares/static/media/Battery.c287f4db7093739805f0.png",
     "static/media/WiperBlade.png": "/EMCSpares/static/media/WiperBlade.95553b8628734226ac91.png",
     "static/media/Lights.jpg": "/EMCSpares/static/media/Lights.b447bc0913c4bb140488.jpg",
@@ -12,16 +12,17 @@
     "static/media/IgnitionCoil.jpg": "/EMCSpares/static/media/IgnitionCoil.10ed1b91895e20a75062.jpg",
     "static/media/Oilfilter.jpg": "/EMCSpares/static/media/Oilfilter.28cdb0a95fb6e0638843.jpg",
     "static/media/Alternator.jpg": "/EMCSpares/static/media/Alternator.7254aa30826f9bc0a2c9.jpg",
+    "static/media/EMCLogo_bg.png": "/EMCSpares/static/media/EMCLogo_bg.de656d0fac69a0c87464.png",
     "static/media/springs.jpg": "/EMCSpares/static/media/springs.172cb71fe85255699751.jpg",
     "static/media/EMCLogo.png": "/EMCSpares/static/media/EMCLogo.bc87467baa37eef8403a.png",
     "static/media/no-results.png": "/EMCSpares/static/media/no-results.e6359f53f34f2703c335.png",
     "static/media/BreaksPad.jpg": "/EMCSpares/static/media/BreaksPad.acc07ef17053cfb7ffc8.jpg",
     "index.html": "/EMCSpares/index.html",
-    "main.d63cec9a.css.map": "/EMCSpares/static/css/main.d63cec9a.css.map",
-    "main.4e46c185.js.map": "/EMCSpares/static/js/main.4e46c185.js.map"
+    "main.4b8250f4.css.map": "/EMCSpares/static/css/main.4b8250f4.css.map",
+    "main.6966c16a.js.map": "/EMCSpares/static/js/main.6966c16a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d63cec9a.css",
-    "static/js/main.4e46c185.js"
+    "static/css/main.4b8250f4.css",
+    "static/js/main.6966c16a.js"
   ]
 }
