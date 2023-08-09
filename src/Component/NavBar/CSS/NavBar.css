@@ -16,3 +16,33 @@
     border: none;
   }
 }
+.dropdown {
+  background-color: rgb(56, 63, 70);
+  padding: 0;
+}
+
+.dropdown-item{
+  padding: 10px
+}
+.dropdown-item:hover{
+  background-color: rgba(83, 88, 99, 0.227);
+  border-radius: 5px;
+}
+
+.whatsappNav{
+  color: green;
+  font-weight: 500;
+}
+
+.whatsappNav:hover{
+  color: green;
+}
+
+.PhonNav{
+  color: gray;
+  font-weight: 500;
+}
+
+.PhonNav:hover{
+  color: gray;
+}

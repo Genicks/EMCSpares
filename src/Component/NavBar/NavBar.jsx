@@ -25,18 +25,41 @@ const NavBar = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav container-fluid m-0 p-0 d-flex justify-content-end">
-          <li className="nav-item">
-              <NavLink className="nav-link " to="/" >
+            <li className="nav-item">
+              <NavLink className="nav-link " to="/">
                 Home
                 <i className="bi bi-house ms-1 icons"></i>
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link " to="https://call.whatsapp.com/voice/FagIjZ9kgmBFmNkJnWcEZE">
+
+            <li className="nav-item dropdown bg-dark p-0 ">
+              <a
+                className="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                href="/"
+              >
                 Contact us
                 <i className="bi bi-telephone ms-1 icons"></i>
-              </NavLink>
+              </a>
+              <ul className="dropdown-menu dropdown">
+                <li>
+                  <a className="dropdown-item whatsappNav" href="https://call.whatsapp.com/voice/FagIjZ9kgmBFmNkJnWcEZE">
+                    <i className="bi bi-whatsapp me-2 whatsappNav"></i>
+                    Whatsapp
+                  </a>
+                </li>
+                <hr className="dropdown-divider p-0 m-0" />
+                <li >
+                  <a className="dropdown-item PhonNav" href="tel:6578699">
+                    <i className="bi bi-telephone me-2 PhonNav"></i>
+                    Phone
+                  </a>
+                </li>
+              </ul>
             </li>
+
             <li className="nav-item">
               <NavLink
                 className="nav-link "
