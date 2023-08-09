@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/EMCSpares/static/css/main.1685c980.css",
-    "main.js": "/EMCSpares/static/js/main.91968b4f.js",
+    "main.css": "/EMCSpares/static/css/main.50f1de2e.css",
+    "main.js": "/EMCSpares/static/js/main.4e46c185.js",
+    "static/media/Battery.png": "/EMCSpares/static/media/Battery.c287f4db7093739805f0.png",
+    "static/media/WiperBlade.png": "/EMCSpares/static/media/WiperBlade.95553b8628734226ac91.png",
+    "static/media/Lights.jpg": "/EMCSpares/static/media/Lights.b447bc0913c4bb140488.jpg",
     "static/media/Cover.jpg": "/EMCSpares/static/media/Cover.2e555193b82df51eebe5.jpg",
-    "static/media/EMCLogo_bg.png": "/EMCSpares/static/media/EMCLogo_bg.de656d0fac69a0c87464.png",
+    "static/media/Shocks.jpg": "/EMCSpares/static/media/Shocks.7e52d5de3104c76a0bfa.jpg",
+    "static/media/Bearings.jpg": "/EMCSpares/static/media/Bearings.0135c6019d5f1fda782b.jpg",
+    "static/media/AirFilter.png": "/EMCSpares/static/media/AirFilter.1e5a193ed7d03157b7b5.png",
+    "static/media/IgnitionCoil.jpg": "/EMCSpares/static/media/IgnitionCoil.10ed1b91895e20a75062.jpg",
+    "static/media/Oilfilter.jpg": "/EMCSpares/static/media/Oilfilter.28cdb0a95fb6e0638843.jpg",
+    "static/media/Alternator.jpg": "/EMCSpares/static/media/Alternator.7254aa30826f9bc0a2c9.jpg",
+    "static/media/springs.jpg": "/EMCSpares/static/media/springs.172cb71fe85255699751.jpg",
     "static/media/EMCLogo.png": "/EMCSpares/static/media/EMCLogo.bc87467baa37eef8403a.png",
     "static/media/no-results.png": "/EMCSpares/static/media/no-results.e6359f53f34f2703c335.png",
+    "static/media/BreaksPad.jpg": "/EMCSpares/static/media/BreaksPad.acc07ef17053cfb7ffc8.jpg",
     "index.html": "/EMCSpares/index.html",
-    "main.1685c980.css.map": "/EMCSpares/static/css/main.1685c980.css.map",
-    "main.91968b4f.js.map": "/EMCSpares/static/js/main.91968b4f.js.map"
+    "main.50f1de2e.css.map": "/EMCSpares/static/css/main.50f1de2e.css.map",
+    "main.4e46c185.js.map": "/EMCSpares/static/js/main.4e46c185.js.map"
   },
   "entrypoints": [
-    "static/css/main.1685c980.css",
-    "static/js/main.91968b4f.js"
+    "static/css/main.50f1de2e.css",
+    "static/js/main.4e46c185.js"
   ]
 }
