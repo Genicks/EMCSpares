@@ -19,6 +19,9 @@
   display: block;
   cursor: pointer;
 }
+.orderWord:hover{
+  color: #d19e1e
+}
 
 
 

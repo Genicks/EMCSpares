@@ -5,6 +5,9 @@ h4 {
   color: #7a7b75;
   cursor: pointer;
 }
+.special:hover {
+  color: #b6b9ad;
+}
 
 
 
