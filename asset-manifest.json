@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EMCSpares/static/css/main.4b8250f4.css",
+    "main.css": "/EMCSpares/static/css/main.54fd7a4b.css",
     "main.js": "/EMCSpares/static/js/main.6966c16a.js",
     "static/media/Battery.png": "/EMCSpares/static/media/Battery.c287f4db7093739805f0.png",
     "static/media/WiperBlade.png": "/EMCSpares/static/media/WiperBlade.95553b8628734226ac91.png",
@@ -18,11 +18,11 @@
     "static/media/no-results.png": "/EMCSpares/static/media/no-results.e6359f53f34f2703c335.png",
     "static/media/BreaksPad.jpg": "/EMCSpares/static/media/BreaksPad.acc07ef17053cfb7ffc8.jpg",
     "index.html": "/EMCSpares/index.html",
-    "main.4b8250f4.css.map": "/EMCSpares/static/css/main.4b8250f4.css.map",
+    "main.54fd7a4b.css.map": "/EMCSpares/static/css/main.54fd7a4b.css.map",
     "main.6966c16a.js.map": "/EMCSpares/static/js/main.6966c16a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b8250f4.css",
+    "static/css/main.54fd7a4b.css",
     "static/js/main.6966c16a.js"
   ]
 }
