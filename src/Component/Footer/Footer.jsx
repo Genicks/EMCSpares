@@ -13,11 +13,33 @@ const Footer = () => {
 
       <div className="ConLinks">
         <a
-          className="Link Link1"
-          href="https://call.whatsapp.com/voice/FagIjZ9kgmBFmNkJnWcEZE"
+          className="nav-link dropdown-toggle Link Link1"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          href="/"
         >
           <i className="bi bi-telephone me-2 Link1"></i>Phone
         </a>
+
+        <ul className="dropdown-menu dropdown">
+          <li>
+            <a
+              className="dropdown-item whatsappNav"
+              href="https://call.whatsapp.com/voice/FagIjZ9kgmBFmNkJnWcEZE"
+            >
+              <i className="bi bi-whatsapp me-2 whatsappNav"></i>
+              Whatsapp
+            </a>
+          </li>
+          <hr className="dropdown-divider p-0 m-0" />
+          <li>
+            <a className="dropdown-item PhonNav" href="tel:6578699">
+              <i className="bi bi-telephone me-2 PhonNav"></i>
+              Phone
+            </a>
+          </li>
+        </ul>
 
         <a
           className="Link Link2"
